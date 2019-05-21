@@ -17,5 +17,8 @@ class School
 
   def sort
     @roster.sort.to_h
+    @roster.map do |grade, students|
+      
+    end
   end
 end
